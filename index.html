@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <h1>Form Tag</h1>
+
+    <form action=""method="post">
+        <input type="text"placeholder="Enter Username" /> <br />
+        <br />
+        <input type="email" placeholder="Enter Email Address" /> <br /><br>
+        <Input type="password" placeholder="Password" /> <br />
+        <br />
+
+        <input type="radio" name="gender" value="Male" /> Male <br /> 
+        <input type="radio" name="gender" value="Female" /> Female <br />
+        <br />
+
+        <!-- Checkbox type for multiple chioce values -->
+        <p>CARS</p>
+        <input type="checkbox" name="cars" values="HELLCAT" /> HELLCAT <br /><br />
+        <input type="checkbox" name="cars" values="LAMBORGHINI" /> LAMBORGHINI <br /><br />
+        <input type="checkbox" name="cars" values="AMBER ROLCE ROYCE" /> AMBER ROLCE ROYCE <br /><br />
+        <input type="checkbox" name="cars" values="FERRARI" /> FERRARI <br /><br />
+        <p>Pets:</p>
+        <select>name="Pets" id="pet_id">
+            <option value="PIG">PIG</option>
+            <option value="HORSE">HORSE</option>
+            <option value="RAT">RAT</option>
+            <option value="DOG">DOG</option>
+        </select>
+
+        <P>MORE ABOUT YOURSELF</P>
+        <textarea name="about"
+                  id="about_id"
+                  cols="30"
+                  rows="10"
+                  placeholder="Not More Than 100Words"
+        ></textarea>
+
+        <!-- <input type="button" value="Register" /> -->
+        <button>submit</button>
+    </form>
+    
+</body>
+</html>
